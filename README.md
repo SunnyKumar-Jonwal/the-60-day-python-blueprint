@@ -1,10 +1,6 @@
 # Learn Python in 60 Days (From Scratch)
 
-[![Lint and Test](https://github.com/SunnyKumar-Jonwal/learn-python-in-60-days/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/SunnyKumar-Jonwal/learn-python-in-60-days/actions/workflows/lint-and-test.yml)
-
-> **Note:** this repo isn't pushed to GitHub yet — the badge above is a placeholder
-> pointing at `SunnyKumar-Jonwal/learn-python-in-60-days`. Once you create the real
-> repo, update the two URLs above to match, or the badge will show "not found."
+[![Python Practice](https://github.com/SunnyKumar-Jonwal/the-60-day-python-blueprint.git/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/SunnyKumar-Jonwal/learn-python-in-60-days/actions/workflows/lint-and-test.yml)
 
 A self-contained, day-by-day Python curriculum for absolute beginners. Sixty days,
 six modules, five mini-projects, and a two-day capstone — each day is a folder with
