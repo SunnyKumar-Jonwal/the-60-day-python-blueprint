@@ -1,10 +1,11 @@
 # Learn Python in 60 Days (From Scratch)
 
-[![Lint and Test](https://github.com/SunnyKumar-Jonwal/learn-python-in-60-days/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/SunnyKumar-Jonwal/learn-python-in-60-days/actions/workflows/lint-and-test.yml)
+[![Lint and Test](https://github.com/SunnyKumar-Jonwal/the-60-day-python-blueprint/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/SunnyKumar-Jonwal/the-60-day-python-blueprint/actions/workflows/lint-and-test.yml)
 
-> **Note:** this repo isn't pushed to GitHub yet — the badge above is a placeholder
-> pointing at `SunnyKumar-Jonwal/learn-python-in-60-days`. Once you create the real
-> repo, update the two URLs above to match, or the badge will show "not found."
+> **Note:** this repo isn't pushed to GitHub yet — the badge above points at
+> `SunnyKumar-Jonwal/the-60-day-python-blueprint`. It'll 404 until you create that
+> repo, push this code (including `.github/workflows/lint-and-test.yml`), and the
+> workflow runs at least once.
 
 A self-contained, day-by-day Python curriculum for absolute beginners. Sixty days,
 six modules, five mini-projects, and a two-day capstone — each day is a folder with
@@ -130,6 +131,7 @@ pulling updates.
 ## Status
 
 All 60 days are complete, verified, and covered by CI. This repo was built incrementally,
+phase by phase — see [`CLAUDE.md`](CLAUDE.md) for the build conventions it followed.
 
 `.github/workflows/lint-and-test.yml` runs on every push/PR: `ruff check .`, the full
 `pytest` suite, and [`scripts/run_examples.py`](scripts/run_examples.py), which actually
