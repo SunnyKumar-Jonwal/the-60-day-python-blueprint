@@ -1,0 +1,2 @@
+# No additional dependencies beyond the root requirements.txt
+# -- uses pandas and pytest, both already listed there.

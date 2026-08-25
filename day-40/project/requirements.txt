@@ -1,0 +1,2 @@
+# No additional dependencies beyond the root requirements.txt (ruff, pytest)
+# -- todo.py uses only the Python standard library (argparse, re).

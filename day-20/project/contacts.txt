@@ -1,0 +1,2 @@
+Ada Lovelace,555-0100,ada@example.com
+Grace Hopper,555-0200,grace@example.com

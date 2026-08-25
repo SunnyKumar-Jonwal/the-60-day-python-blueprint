@@ -1,0 +1,2 @@
+# No additional dependencies beyond the root requirements.txt (ruff, pytest)
+# -- contact_book.py uses only the Python standard library.

@@ -1,0 +1,27 @@
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+# E731 (no lambda assignment) is disabled: Day 34 deliberately has learners
+# assign lambdas to names as a teaching step, even though the README explains
+# why real code prefers a plain "def" for anything beyond inline use.
+ignore = ["E731"]
+
+[tool.ruff.lint.per-file-ignores]
+# Exercise stubs intentionally ship a pre-written import the TODOs haven't
+# used yet -- that's scaffolding, not dead code, so don't flag it as unused.
+"*/exercises/*.py" = ["F401"]
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+python_files = ["test_*.py"]
+# Many days have same-named test files under exercises/ and solutions/ with
+# no __init__.py -- importlib mode keys modules by path instead of basename,
+# so those don't collide during collection.
+addopts = "--import-mode=importlib"
+# day-50's test_analysis.py imports its sibling analysis.py directly; importlib
+# mode doesn't auto-add a test file's own directory to sys.path like the
+# default "prepend" mode does, so it's added explicitly here.
+pythonpath = ["day-50/project"]

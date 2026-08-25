@@ -1,0 +1,2 @@
+# No additional dependencies beyond the root requirements.txt
+# -- uses fastapi, uvicorn, httpx, pandas, and pytest, all already listed there.
