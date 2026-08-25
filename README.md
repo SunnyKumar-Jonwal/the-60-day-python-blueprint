@@ -1,6 +1,6 @@
 # Learn Python in 60 Days (From Scratch)
 
-[![Python Practice](https://github.com/SunnyKumar-Jonwal/the-60-day-python-blueprint.git/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/SunnyKumar-Jonwal/learn-python-in-60-days/actions/workflows/lint-and-test.yml)
+[![Python Practice](https://github.com/SunnyKumar-Jonwal/the-60-day-python-blueprint/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/SunnyKumar-Jonwal/the-60-day-python-blueprint/actions/workflows/lint-and-test.yml)
 
 A self-contained, day-by-day Python curriculum for absolute beginners. Sixty days,
 six modules, five mini-projects, and a two-day capstone — each day is a folder with
