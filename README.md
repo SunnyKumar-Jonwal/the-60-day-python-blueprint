@@ -125,8 +125,7 @@ pulling updates.
 
 ## Status
 
-All 60 days are complete, verified, and covered by CI. This repo was built incrementally,
-phase by phase — see [`CLAUDE.md`](CLAUDE.md) for the build conventions it followed.
+All 60 days are complete, verified, and covered by CI.
 
 `.github/workflows/lint-and-test.yml` runs on every push/PR: `ruff check .`, the full
 `pytest` suite, and [`scripts/run_examples.py`](scripts/run_examples.py), which actually
